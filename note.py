@@ -53,8 +53,10 @@ for note in soundBinary.split():
         freq = 277
     elif note == "10010":        #d sharp
         freq = 311
-    elif note == "10011":        # f sharp
+    elif note == "10011":        #f sharp
         freq = 370
     elif note == "10100":        #g sharp
         freq = 415
+    elif note == "10101":        #a sharp
+        freq = 233
     winsound.Beep(freq, rate)
